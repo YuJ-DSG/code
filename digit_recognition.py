@@ -181,7 +181,7 @@ class DrawingApp:
         img_array = np.array(self.image)
         img_array = cv2.resize(img_array, (28, 28))
         
-        # 反色（因为MNIST中的数字是白色背景黑色数字）
+        # 反色
         img_array = 255 - img_array
         
         # 预测
