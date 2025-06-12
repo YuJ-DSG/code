@@ -15,6 +15,10 @@ namespace yujieTest8
         public Form1()
         {
             InitializeComponent();
+
+            this.WindowState= FormWindowState.Maximized;
+
+            this.Controls.Add(new Button());
         }
 
         private void Form1_Load(object sender, EventArgs e)
